@@ -6,6 +6,7 @@ import hero_title from "../../assets/hero_title.png";
 import play_icon from "../../assets/Play_icon.png";
 import info_icon from "../../assets/info_icon.png";
 import TitleCards from "../../components/Title Cards/TitleCards";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function Home() {
         <TitleCards title={"Top Rated"} />
         <TitleCards title={"Action Movies"} />
       </div>
+      <Footer />
     </div>
   );
 }
